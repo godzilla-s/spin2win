@@ -1,0 +1,61 @@
+@import "includes/variables";
+@import "includes/layout";
+
+.wheel-container{
+  width: 100%;
+  .wheel-main{
+    text-align: center;
+    position: relative;
+    background-size: auto 100%;
+    background-position: center;
+    margin: 0 auto;
+    width: 100%;
+    .wheel{
+      margin: 0 auto;
+      width: 422px;
+      position: relative;
+      .wheel-circle{
+        position: relative;
+      }
+      .item{
+        position: absolute;
+        top: 11.5%;
+        width: 76%;
+        right: 12%;
+      }
+      .pointer{
+        position: absolute;
+        width: 31%;
+        height: 31%;
+        left: 34.7%;
+        top: 30.3%;
+        cursor: pointer;
+      }
+    }
+  }
+  img{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .wheel-container .wheel-main {
+    .wheel {
+      width: 300px;
+    }
+  }
+}
+@media screen and (max-width: 320px) {
+  .wheel-container .wheel-main {
+    .wheel {
+      width: 280px;
+    }
+  }
+}
+@media screen and (max-width: 414px) {
+  .wheel-container .wheel-main {
+    .wheel {
+      width: 300px;
+    }
+  }
+}
