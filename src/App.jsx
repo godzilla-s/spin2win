@@ -1,4 +1,5 @@
 import './App.css'
+import '@twa-dev/sdk'
 import { Spin2Win } from './components/Spin2Win'
 
 function App() {
